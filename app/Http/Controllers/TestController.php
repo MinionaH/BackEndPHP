@@ -12,7 +12,6 @@ class TestController extends Controller
     }
 
     public function calculate(Request $request){
-        // dd($request);
         (int)$x = $request->numberOne;
         (int)$y = $request->numberTwo;
         $Action = $request->action;
